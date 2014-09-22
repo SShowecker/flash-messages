@@ -11,8 +11,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "flash_messages\\": "src"
-        }
+        "files": ["src/flash_messages.php"]
     }
 }
