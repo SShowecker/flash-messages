@@ -1,10 +1,10 @@
-#Flash-Messages
+# Flash-Messages
 
 Many web development frameworks include a way to show your user a simple message, usually success or error (some times called flash messages).  To do this without using a framework in PHP you would normally have to resort to using $_GET variables like 'page?updateSuccessful' and then use a myriad of if statements to detect for these status variables before triggering the message you want displayed.
 
 PHP-Flash-Messages is an easy to use PHP class for handling flash messages that utilises the twitter bootstrap alert class.
 
-###Usage
+## Usage
 
 Using Flash-Messages is real simple, first you need to be using Twitter Bootstrap 3.x (jquery also required if you want to be able to manually close the alerts).
 
@@ -43,5 +43,5 @@ This will display the messages using the [Twitter Bootstrap alerts class](http:/
 
 That's it, there really is very little to this package but it provides a much needed solution to using flash messages in PHP applications.
 
-### License
+## License
 I believe in an open internet and that knowledge belongs to us all, as such this is released under the MIT license.
